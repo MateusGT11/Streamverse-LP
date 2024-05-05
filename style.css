@@ -1,0 +1,51 @@
+header{
+    display: grid;
+    grid-template-columns: 178px 578px;
+    width: 70%;
+    /* margin: 0 auto; */
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    background-color: #D9D9D9;
+}
+
+i{
+    color: #632AAC;
+    margin: 23px 54px;
+    display: flex;
+    font-style: normal;
+    font-weight: bolder;
+    place-content: center;
+}
+
+.login{
+    background-color: black;
+    display: flex;
+    padding: 17px 8px;
+}
+
+.login_text{
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+}
+
+.login_enter{
+    background-color: #120EEF;
+    color: aliceblue;
+    border: none;
+    font-weight: bolder;
+
+}
+
+body{
+    background-color: #040c23;
+}
