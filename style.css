@@ -118,3 +118,72 @@ main {
     color: currentcolor;
     border-radius: 10px;
 }
+
+.container__catalogo {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.titulo__catalogo {
+    background-color: blueviolet;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+
+.paragrafo__catalogo {
+    background-color: orange;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 25px;
+    line-height: 1.rem;
+}
+
+.movies-container {
+    max-width: 968px;
+    margin: 0 320px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.box .box-imagem {
+    width: 100%;
+    height: 270px;
+    border-radius: 13px;
+    transition: 0.3s all linear;
+}
+
+.box .box-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.box .box-imagem img:hover {
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+
+.box h3 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box span {
+    font-size: 13px;
+}
