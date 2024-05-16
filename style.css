@@ -1,22 +1,26 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nexa:wght@400;700&display=swap');
+
+.titulo_completo {
     display: grid;
     grid-template-columns: 178px 578px;
-    width: 70%;
-    /* margin: 0 auto; */
     font-family: 'Inknut Antiqua';
     font-style: normal;
+    background-color: black;
 }
 
-div{
+.titulo {
     display: flex;
     justify-content: center;
 }
 
-.title{
+.title {
     background-color: #D9D9D9;
+    font-family: 'Tahoma';
 }
 
-i{
+i {
     color: #632AAC;
     margin: 23px 54px;
     display: flex;
@@ -25,27 +29,92 @@ i{
     place-content: center;
 }
 
-.login{
-    background-color: black;
+.login {
     display: flex;
-    padding: 17px 8px;
+    padding: 18px;
+    padding-left: 500px;
 }
 
-.login_text{
+.login_text {
     border: none;
     background-color: transparent;
     color: white;
     width: 100%;
 }
 
-.login_enter{
-    background-color: #120EEF;
+.login_enter {
+    background-color: #6C1DCF;
     color: aliceblue;
     border: none;
     font-weight: bolder;
+    border-radius: 9px;
 
 }
 
-body{
-    background-color: #040c23;
+body {
+    background-image: radial-gradient(circle, #000b21, #062c50);
+    display: grid;
+    margin: 0;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Inter';
+}
+
+.call_body {
+    display: grid;
+}
+
+main {
+    margin-top: 187px;
+    text-align: center;
+    color: white;
+}
+
+.call_body {
+    font-family: 'Poppins';
+}
+
+.call {
+    font-size: 16px;
+}
+
+.call_name {
+    font-size: 82.69px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+    font-size: 16px;
+    font-family: 'Inter', 'Inter Regular';
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form_text {
+    display: flex;
+    position: absolute;
+    color: black;
+}
+
+.form-input {
+    border-radius: 5px;
+    padding: 15px 2px;
+    width: 50%;
+}
+
+.form-button {
+    padding: 0 30px;
+    background-color: #6C1DCF;
+    color: currentcolor;
+    border-radius: 10px;
 }
