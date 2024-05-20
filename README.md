@@ -38,7 +38,7 @@ Nestre projeto, criamos uma landing page para um serviço de streaming fictício
 <div align="center">
 <strong> Imagens do projeto </strong>
   <br>
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20BREVE&color=RED&style=for-the-badge" #vitrinedev/>
+  <img alt="Static Badge" src="https://img.shields.io/badge/EM%20BREVE-blue">
 </div>
 
 ## 🛠️ Ferramentas utilizadas
