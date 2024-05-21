@@ -268,6 +268,108 @@ main {
     padding: 40px;
 }
 
-.image_segunda {
-    
+
+.first-section{
+    background-color:#082f49;
+    color: aliceblue;
+}
+
+.container-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 200px;
+    height: 350px;
+    background-color: #f1f5f9;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item2{
+    width: 210px;
+    height: 395px;
+    background-color: #f1f5f9;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item3{
+    width: 200px;
+    height: 350px;
+    background-color: #f1f5f9;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.text{
+    color:white;
+    display:flex;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    border-top: 1px solid black;
+    margin: 20px 0;
+}
+
+.valores{
+    justify-content: center;
+    align-items: center;
+}
+
+#botao{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 55px;
+    background-color: #0073d0; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 10px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+   /* text-decoration: none; /* Remove sublinhado */
+    font-size: 14px; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+#botao:hover {
+   background-color: #000000; /* Cor de fundo mais escura */
+}
+
+/* Estilos quando o botão é pressionado */
+#botao:active {
+    background-color: #050505; /* Cor de fundo ainda mais escura */
+}
+.icon {
+    color:#0073d0; /* Define a cor vermelha para os ícones */
+}
+
+
+.fim{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
