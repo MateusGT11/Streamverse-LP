@@ -66,5 +66,5 @@ Você pode Você pode [acessar o código fonte do projeto](https://github.com/sc
 
 ## 🌟 Desenvolvedores
 
-| [<img src="https://avatars.githubusercontent.com/u/133241955?v=4" width=115><br><sub>Mateus Teixeira</sub>](https://github.com/MateusGT11) |  [<img src="https://avatars.githubusercontent.com/u/104236643?v=4" width=115><br><sub>Mari Magalhães</sub>](https://github.com/scppuna)  |
-| :---: | :---: 
+| [<img src="https://avatars.githubusercontent.com/u/133241955?v=4" width=115><br><sub>Mateus Teixeira</sub>](https://github.com/MateusGT11) |  [<img src="https://avatars.githubusercontent.com/u/104236643?v=4" width=115><br><sub>Mari Magalhães</sub>](https://github.com/scppuna)  | [<img src="https://avatars.githubusercontent.com/u/170680383?v=4" width=115><br><sub>Nayana Bomfim</sub>](https://github.com/Nayanabomfim) |
+| :---: | :---:  | :---:  
