@@ -530,3 +530,33 @@ hr {
 .accordion:has(.active) .arrow {
     transform: rotate(180deg);
 }
+
+.rodape {
+    background-color: #6C1DCF;
+    font-family: 'Poppins';
+    text-align: center;
+    color: white;
+}
+
+.rodape_name {
+    font-size: 44px;
+}
+
+.rodape_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 13px;
+    margin: 0 15%;
+    text-decoration-line: none;
+}
+
+
+.copyright {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
